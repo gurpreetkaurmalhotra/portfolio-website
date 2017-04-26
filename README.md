@@ -8,5 +8,5 @@ This is my portfolio and you can check out my featured works in this project.
 
 ## How to use this project ##
 
-*Download/Clone this project to your machine.
-*Open "pro2.html" and you can view the portfolio.
+* Download/Clone this project to your machine.
+* Open "pro2.html" and you can view the portfolio.
