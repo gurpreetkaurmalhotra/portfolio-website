@@ -6,24 +6,25 @@
 }
 
 
-body{
-    font-family: 'lato', sans-serif;
+body {
+    font-family: "lato", sans-serif;
     color: #999999;
     font-weight: 300;
 }
-.text-muted{
-    color: #BCBBBB;
+
+.text-muted {
+    color: #bcbbbb;
 }
 
-.text-thin{
+.text-thin {
     font-weight: 20px;
 }
 
-.text-super{
+.text-super {
     font-size: 60px;
 }
 
-.text-logo{
+.text-logo {
     width: 100%;
     max-width: 100px;
     min-width: 60px;
@@ -38,7 +39,7 @@ hr {
 }
 
 
-img{
+img {
     max-width:100%;
 }
 
@@ -48,7 +49,7 @@ img{
     }
     .text-muted{
         font-size: 20px;
-        color: #BCBBBB;
+        color: #bcbbbb;
     }
     .text-logo {
         width: 75px;
@@ -67,7 +68,7 @@ img{
     }
     .text-muted{
         font-size: 20px;
-        color: #C0C0C0;
+        color: #c0c0c0;
     }
     .text-logo {
         width: 75px;
