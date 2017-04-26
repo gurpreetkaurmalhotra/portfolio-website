@@ -3,33 +3,41 @@
 
 <head>
     <title>Portfolio</title>
+    <!-- setting viewport -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- using google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+    <!-- Link for including the bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Link for including the css file -->
     <link rel="stylesheet" href="css/main.css">
-
 </head>
 <body>
+        <!-- The content of the website comes under this -->
         <div class="container">
+            <!-- The header of the website is divided into two columns one for logo other for name -->
             <header class="row">
+                <!-- The place for logo -->
                 <picture class="col-xs-2">
                     <img class="text-logo" src="img/logo.svg">
                 </picture>
+                <!-- The place for name -->
                 <article class="col-xs-10 text-right text-uppercase">
                     <h1 class="text-super text-thin">Gurpreet Kaur</h1>
                     <h4> Front-end Ninja</h4>
                 </article>
             </header>
+
+            <!-- The place for horizontal line -->
             <section class="row">
                 <div class="col-xs-12">
                     <hr>
                 </div>
             </section>
+
 
             <article class="row">
                 <div class="col-xs-12">
@@ -41,21 +49,31 @@
                     <h2 class="text-muted">Featured work</h2>
                 </div>
             </section>
+            <!-- The place where the projects along with their description, image and links are placed -->
             <section class="row text-center">
+                <!-- Row is divided into 3 columns where three projects reside -->
                 <article class="col-xs-4">
                     <img src="img/1.jpg" class="img-responsive">
-                    <h3><a class="text-uppercase name" href="https://github.com/gurpreetkaurmalhotra/movie-trailor-website">Movie Trailer Website</h3>
+                    <h3><a class="text-uppercase name" href="https://github.com/gurpreetkaurmalhotra/movie-trailor-website">Movie Trailer Website</a></h3>
+                    <p>This is a server-side code written in Python to store the list of my favorite movies including box art imagery and a movie trailer URL. We can serve this data as a webpage allowing visitors to review the movies and watch the trailer. </p>
                 </article>
                 <article class="col-xs-4">
                     <img src="img/t1.png" class="img-responsive">
-                   <h3> <a class="text-uppercase name" href="https://github.com/gurpreetkaurmalhotra/Udacity-project-4-full-stack-web-developer-nanodegree">Tournament-Result project</h3>
+                   <h3> <a class="text-uppercase name" href="">Tournament-Project </a></h3>
+                   <p>In this project we have to build a database schema to store details of matches played between players. Then we have to write a python module to rank the players and pair them up in matches in a tournament.</p>
                 </article>
                 <article class="col-xs-4">
                     <img src="img/3.jpg" class="img-responsive">
-                    <h3><a class="text-uppercase name" href="https://github.com/gurpreetkaurmalhotra/portfolio-website">Portfolio Website</h3>
+                    <h3><a class="text-uppercase name" href="https://github.com/gurpreetkaurmalhotra/portfolio-website">Portfolio Website</a></h3>
+                    <p>This is a portfolio website made using html, css and bootstrap. The main aim of this project is to make a responsive website.</p>
 
                 </article>
             </section>
         </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
     </body>
 </html>
